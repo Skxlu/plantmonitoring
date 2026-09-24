@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+main {
+    width: min(900px, 92%);
+    margin: 40px auto;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #1c1c1c;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+#moisture {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#adc,
+#time {
+    color: #aaa;
+}
+
+.measurement {
+    padding: 12px 0;
+    border-bottom: 1px solid #333;
+}
+
+.measurement:last-child {
+    border-bottom: none;
+}
